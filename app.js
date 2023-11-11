@@ -73,10 +73,9 @@ const menu = [
   },
 ];
 
-let container = document.querySelector(".btn-container");
-container.innerHTML = `
-<button id="all" class="btn btn-outline-dark btn-item">All</button>
-<button id="korea" class="btn btn-outline-dark btn-item">Korea</button>
-<button id="japan" class="btn btn-outline-dark btn-item">Japan</button>
-<button id="china" class="btn btn-outline-dark btn-item">China</button>
-`;
+const buttons = [
+  { id: "all", text: "All" },
+  { id: "korea", text: "Korea" },
+  { id: "japan", text: "Japan" },
+  { id: "china", text: "China" },
+];
