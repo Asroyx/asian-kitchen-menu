@@ -79,3 +79,9 @@ const buttons = [
   { id: "japan", text: "Japan" },
   { id: "china", text: "China" },
 ];
+
+const container = document.querySelector(".btn-container");
+container.innerHTML = buttons.map((button) =>
+      `<button id="${button.id}" class="btn btn-outline-dark btn-item">${button.text}</button>`
+  )
+  .join("");
