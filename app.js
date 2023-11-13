@@ -98,7 +98,7 @@ const outputDiv = document.querySelector(".section-center");
 // Display all items upon page load
 showMenuItems("All");
 
-// Implemented Event Listeners for Filter Buttons with Corresponding Categories
+// Implemented Event Listeners for Filter Buttons with Corresponding Categories"
 allButton.addEventListener("click", function () {
   showMenuItems("All");
 });
@@ -112,8 +112,9 @@ chinaButton.addEventListener("click", function () {
   showMenuItems("China");
 });
 
+// Filter menu items based on the selected category
 function showMenuItems(category) {
-  const filteredMenu =
+  const filteredMenu = // If the selected category is 'All', display all menu items; otherwise, filter by category
     category === "All"
       ? menu
       : menu.filter((item) => item.category === category);
