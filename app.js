@@ -4,7 +4,7 @@ const menu = [
     title: "Tteokbokki",
     category: "Korea",
     price: 10.99,
-    img: "https://twoplaidaprons.com/wp-content/uploads/2020/09/tteokbokki-top-down-view-of-tteokbokki-in-a-bowl-500x500.jpg",
+    img: "https://media.istockphoto.com/id/1253629795/tr/foto%C4%9Fraf/beton-masa-%C3%BCst%C3%BCnde-gri-kase-yumurta-ile-tteokbokki-tteok-bokki-pirin%C3%A7-kek-ile-kore.jpg?s=612x612&w=0&k=20&c=RvxL1fRABsfOvuVgqtTupwLxtqn12AgkaF3mzmXN3vE=",
     desc: `Spicy rice cakes, serving with fish cake.`,
   },
   {
@@ -12,7 +12,7 @@ const menu = [
     title: "Chicken Ramen",
     category: "Japan",
     price: 7.99,
-    img: "https://www.forkknifeswoon.com/wp-content/uploads/2014/10/simple-homemade-chicken-ramen-fork-knife-swoon-01.jpg",
+    img: "https://www.justonecookbook.com/wp-content/uploads/2022/08/Shio-Ramen-9526-I-2.jpg",
     desc: `Chicken noodle soup, serving with vegetables such as soy bean, green onion. In an optional you can ask for egg. `,
   },
   {
@@ -28,7 +28,7 @@ const menu = [
     title: "Dan Dan Mian",
     category: "China",
     price: 5.99,
-    img: "https://www.savingdessert.com/wp-content/uploads/2019/02/Dan-Dan-Noodles-10.jpg",
+    img: "https://www.justonecookbook.com/wp-content/uploads/2020/08/Black-Sesame-Dan-Dan-Noodles-I-1.jpg",
     desc: `Dan dan noodle, serving with green onion `,
   },
   {
