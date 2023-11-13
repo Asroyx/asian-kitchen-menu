@@ -94,3 +94,8 @@ const koreaButton = document.querySelector("#korea");
 const japanButton = document.querySelector("#japan");
 const chinaButton = document.querySelector("#china");
 const outputDiv = document.querySelector(".section-center");
+
+allButton.addEventListener("click", function () {});
+koreaButton.addEventListener("click", function () {});
+japanButton.addEventListener("click", function () {});
+chinaButton.addEventListener("click", function () {});
