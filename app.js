@@ -95,7 +95,26 @@ const japanButton = document.querySelector("#japan");
 const chinaButton = document.querySelector("#china");
 const outputDiv = document.querySelector(".section-center");
 
-allButton.addEventListener("click", function () {});
-koreaButton.addEventListener("click", function () {});
-japanButton.addEventListener("click", function () {});
-chinaButton.addEventListener("click", function () {});
+// Display all items upon page load
+showMenuItems("All");
+
+// Implemented Event Listeners for Filter Buttons with Corresponding Categories
+allButton.addEventListener("click", function () {
+  showMenuItems("All");
+});
+koreaButton.addEventListener("click", function () {
+  showMenuItems("Korea");
+});
+japanButton.addEventListener("click", function () {
+  showMenuItems("Japan");
+});
+chinaButton.addEventListener("click", function () {
+  showMenuItems("China");
+});
+
+function showMenuItems(category) {
+  const filteredMenu =
+    category === "All"
+      ? menu
+      : menu.filter((item) => item.category === category);
+}
