@@ -118,4 +118,8 @@ function showMenuItems(category) {
     category === "All"
       ? menu
       : menu.filter((item) => item.category === category);
+
+  displayMenuItems(filteredMenu);
 }
+
+function displayMenuItems(menuItems) {}
