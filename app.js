@@ -81,31 +81,16 @@ const buttons = [
 ];
 
 const container = document.querySelector(".btn-container");
-container.innerHTML = buttons.map((button) =>
+container.innerHTML = buttons
+  .map(
+    (button) =>
       `<button id="${button.id}" class="btn btn-outline-dark btn-item">${button.text}</button>`
   )
   .join("");
 
-// Menu Items
-const menuSection = document.querySelector(".section-center");
-menuSection.innerHTML = menu.map((item) =>
-      `<div class="menu-items col-lg-6 col-sm-12">
-      <img
-        src="${item.img}"
-        alt="${item.title}"
-        class="photo"
-      />
-      <div class="menu-info">
-        <div class="menu-title">
-          <h4>${item.title}</h4>
-          <h4 class="price">${item.price}</h4>
-        </div>
-        <div class="menu-text">
-        ${item.desc}
-        </div>
-      </div>
-    </div>
-`
-) 
-  .join("");
-
+// Declare the buttons
+const allButton = document.querySelector("#all");
+const koreaButton = document.querySelector("#korea");
+const japanButton = document.querySelector("#japan");
+const chinaButton = document.querySelector("#china");
+const outputDiv = document.querySelector(".section-center");
