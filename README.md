@@ -24,6 +24,6 @@ This application creates a food menu that displays dishes from different countri
 
 ## Screenshots
 
-![Food Menu Application](ss.png)
+![Food Menu Application](screenshot.png)
 
 This README.md file provides basic information on how to use and run the food menu application. If the project has additional documentation or dependencies, reference can be made to those documents as well.
